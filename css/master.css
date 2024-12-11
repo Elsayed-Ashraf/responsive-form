@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #003;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+form{
+ 
+ display: flex;
+ flex-wrap: wrap;
+  background-color: #004;
+  padding: 5px 10px;
+  
+}
+form input{
+    background-color: #0000778e;
+    padding: 5px 10px;
+    margin: 3px 5px;
+    color: white;
+    flex-basis: 200px;
+    outline: none;
+    border: none;
+    flex-grow: 1;
+
+}
+button{
+    padding: 5px 10px;
+    margin: 3px 5px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    flex-grow: 1;
+    background-color: rgba(25, 25, 243, 0.966);
+
+
+
+
+
+}
